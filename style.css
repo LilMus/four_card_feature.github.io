@@ -101,3 +101,40 @@ img{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+@media screen and (max-width:1200px){
+    main{
+        width: 90%;
+        margin: auto;
+    }
+
+    header{
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    main > div{
+        flex-direction: column;
+    }
+
+    main > div > div{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .card{
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    h1{
+        font-size: 1.6em;
+    }
+}
